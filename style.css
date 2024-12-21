@@ -1,28 +1,24 @@
-
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-
-
-:root{
+:root {
   font-family: "Alice", serif;
   line-height: 150%;
   color: #573a37;
 }
 
-
-img{
+img {
   border-radius: 16px;
 }
 
-body{
+body {
   background-image: url(/assets/bg-image.jpg);
   background-size: cover;
 }
 
-#page{
+#page {
   width: 800px;
   padding: 24px;
   background-color: #f0e8c2;
@@ -31,38 +27,36 @@ body{
   box-sizing: border-box;
 }
 
-main{
+main {
   padding: 24px;
 }
 
-section + section{
+section + section {
   margin-top: 24px;
 }
-
 
 #about p + p {
   margin-top: 12px;
 }
 
-
-h1{
+h1 {
   line-height: 140%;
   font-size: 40px;
-  
 }
 
-h2{
+h2 {
   line-height: 150%;
   font-size: 24px;
 }
 
-h1, h2 {
+h1,
+h2 {
   color: #291b1a;
   margin-bottom: 4px;
   line-height: 150%;
 }
 
-ul{
+ul {
   padding-left: 24px;
 }
 
